@@ -26,7 +26,7 @@ st.title("""
          )
 file= st.file_uploader("Please upload image", type=("jpg", "png"))
 
-import cv2
+
 from  PIL import Image, ImageOps
 def import_and_predict(image_data):
   single_test = image_data[:, :, 0]
